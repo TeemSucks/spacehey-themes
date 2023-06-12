@@ -1,2 +1,2 @@
 # spacehey-themes
-idk
+themes i made for SpaceHey
