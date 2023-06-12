@@ -124,6 +124,19 @@ footer {
 }
 
 body {
-  cursor: url('https://raw.githubusercontent.com/TeemSucks/spacehey-themes/main/terminal/Vector%201.png') 20 20, auto;
+  cursor: none;
+}
+
+body::after {
+  content: "";
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 32px; /* Adjust the size of the custom cursor wrapper as needed */
+  height: 32px;
+  background-image: url('https://raw.githubusercontent.com/TeemSucks/spacehey-themes/main/terminal/Vector%201.png');
+  background-size: cover;
   transform: rotate(130deg);
+  pointer-events: none;
 }
