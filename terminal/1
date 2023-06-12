@@ -1,0 +1,123 @@
+body {
+  background-color: #000;
+  font-family: "Courier New", monospace;
+}
+
+main {
+  background-color: #000;
+  color: #0f0;
+}
+
+.profile .contact,
+.profile .table-section,
+.profile .url-info {
+  border: none;
+  padding: 5px;
+  background-color: #000;
+}
+
+.profile .contact .heading,
+.profile .table-section .heading,
+.home-actions .heading {
+  background-color: #111;
+  color: #0f0;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+nav {
+  background-color: #222;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+nav ul {
+  background: none;
+}
+
+nav img {
+  filter: opacity(80%);
+}
+
+nav ul a img,
+.mood a img {
+  display: none;
+}
+
+.top {
+  background: none;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.top a {
+  color: #0f0;
+}
+
+.top a:hover {
+  color: #fff;
+}
+
+.top .logo {
+  background-color: #333;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.top .search-form input[type="text"] {
+  background-color: #222;
+  color: #0f0;
+  border: none;
+  padding: 5px;
+}
+
+.top .search-form button {
+  background-color: #333;
+  color: #0f0;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.profile .table-section .details-table td {
+  background-color: #111;
+  color: #0f0;
+  padding: 5px;
+}
+
+.profile .blurbs .heading,
+.profile .friends .heading {
+  background-color: #111;
+  color: #0f0;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.profile .friends td {
+  background-color: #111;
+  border: none;
+  padding: 5px;
+}
+
+.friends:not(#comments) {
+  grid-area: friends;
+  background: #111;
+  border: none;
+  padding: 5px;
+}
+
+.general-about,
+.blog-preview,
+.blurbs {
+  background: #111;
+  border: none;
+  color: #0f0;
+  padding: 5px;
+}
+
+footer {
+  border: none;
+  background: #111;
+  color: #0f0;
+  display: block;
+}
