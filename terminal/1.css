@@ -122,3 +122,8 @@ footer {
   color: #0f0;
   display: block;
 }
+
+body {
+  cursor: url('https://raw.githubusercontent.com/TeemSucks/spacehey-themes/main/terminal/Vector%201.png') 20 20, auto;
+  transform: rotate(130deg);
+}
